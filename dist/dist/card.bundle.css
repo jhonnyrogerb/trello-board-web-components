@@ -1,0 +1,66 @@
+.card {
+  overflow: hidden;
+  padding: 6px 6px 2px 8px;
+  position: relative;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 6px;
+  max-width: 300px;
+  min-height: 20px;
+  position: relative;
+  text-decoration: none;
+  z-index: 10; }
+
+.card:hover {
+  background-color: #edeff0;
+  border-bottom-color: #d6dadc; }
+
+.card-content {
+  pointer-events: none; }
+
+.card-rotate {
+  transform: rotate(7deg); }
+
+.card-title {
+  clear: both;
+  display: block;
+  margin: 0 0 4px;
+  overflow: hidden;
+  text-decoration: none;
+  word-wrap: break-word;
+  color: #4d4d4d; }
+
+.wrapper-card-title {
+  padding: 6px 6px 2px 8px;
+  background-color: #fff;
+  margin-bottom: 6px; }
+
+.inp-card-title {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 0;
+  display: block;
+  max-width: 300px;
+  position: relative;
+  text-decoration: none;
+  z-index: 0;
+  word-wrap: break-word;
+  resize: none;
+  height: 54px;
+  background: #fff;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 4px;
+  max-height: 162px;
+  min-height: 54px;
+  overflow-y: auto;
+  width: 100%; }
+
+.inp-card-title:focus {
+  outline: 0; }
+
+/*# sourceMappingURL=card.bundle.css.map*/

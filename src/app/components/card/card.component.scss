@@ -1,0 +1,159 @@
+:host{
+  position: relative;
+}
+
+.card {
+  overflow: hidden;
+  padding: 6px 6px 2px 8px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 6px;
+  max-width: 300px;
+  min-height: 20px;
+  position: relative;
+  text-decoration: none;
+  /*z-index: 10;*/
+}
+
+.card:hover {
+  background-color: #edeff0;
+  border-bottom-color: #d6dadc
+}
+
+.card__content {
+  pointer-events: none;
+  position: relative;
+}
+
+.card__title {
+  clear: both;
+  display: block;
+  margin: 0 0 4px;
+  overflow: hidden;
+  text-decoration: none;
+  word-wrap: break-word;
+  color: #4d4d4d;
+}
+
+.card__edit{
+  position: absolute;
+  display: none;
+  top: 3px;
+  right: 3px;
+  background: #edeff0;
+  height: 17px;
+  width: 28px;
+  text-align: center;
+  padding: 4px 0;
+  color: #999;
+  font-size: 12px;
+  font-weight: lighter;
+  border-radius: 4px;
+
+  &:hover{
+      color: #4d4d4d;
+      background: #d6dadc;
+  }
+}
+
+.card {
+  &:hover{
+    .card__edit{
+      display: block;
+    }
+  }
+}
+
+
+
+
+
+
+.form-add-trello-card {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  width: 254px;
+  height: 90px;
+}
+
+.form-overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background: rgba($color: #000000, $alpha: .6);
+}
+
+.trello-card-title {
+  overflow: hidden;
+  margin: 0;
+  padding: 8px;
+  background-color: #fff;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+  outline: 0;
+  display: block;
+  margin-bottom: 6px;
+  max-width: 100%;
+  width: 100%;
+  min-height: 90px;
+  position: relative;
+  text-decoration: none;
+  box-sizing: border-box;
+  resize: none
+}
+
+
+.btn-add-trello-card{
+  margin-bottom: 8px;
+  background: #5aac44;
+  box-shadow: 0 1px 0 #519839;
+  color: #fff;
+  transition: background .3s ease;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  height: 30px;
+  min-height: 30px;
+  padding: 5px 16px;
+  text-align: center;
+  border: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 3px 
+}
+
+.btn-add-trello-card:hover{
+  background: #519839 100%;
+}
+
+.btn-hide-form{
+  color: #999;
+  height: 30px;
+  font-size: 30px;
+  line-height: 30px;
+  width: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-family: trellicons;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  /* padding-top: 10px; */
+
+  &:hover{
+      color: #111;
+  }
+}

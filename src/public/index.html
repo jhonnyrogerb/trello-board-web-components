@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+    <title>Trello Board</title>
+</head>
+
+<body>
+    <div class="surface">
+        <div class="header">
+            <a class="header-btn" href="#">
+                <i class="fa fa-trello logo-icon" aria-hidden="true"></i>
+                <span class="board-list-link">Quadros</span>
+            </a>
+            <div class="header-search">
+                <input class="header-search-input" type="text" autocomplete="off" autocorrect="off" value="">
+                <span class="header-search-icon">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+            </div>
+            <a href="#" class="trello-logo">
+                <span class="logo">
+                    <img src="/assets/images/trello-logo-white.svg" alt="">
+                </span>
+            </a>
+        </div>
+        <div class="container">
+            <trello-board></trello-board>
+        </div>
+    </div>
+</body>
+
+</html>

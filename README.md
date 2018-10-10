@@ -6,7 +6,7 @@ utilizando recursos como shador root, shadow dom etc.
 
 Porque aprender estas APIS? Bem no meu caso foi por pura curiosidade, apenas para entender o que pode ser feito em Web Components sem utilizar as libs e frameworks mais populares do mercado tipo Angular, React, Polimer etc e para entender como a especificação padrão está evoluindo nesta área.
 
-Obviamente estas apis ainda não são nada produtivas, e este projetinho em si não é nem um exemplo de um código que me de orgulho de olha rs, mas serviu para um grande aprendizado e eu espero que ajude quem possa estar curioso neste assunto.
+Obviamente estas apis ainda não são nada produtivas, e este projetinho em si não é nem um exemplo de um código que me de orgulho de olhar, mas serviu para um grande aprendizado e eu espero que ajude quem possa estar curioso neste assunto.
 
 ## Development server
 
